@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f4">
+  <title>Garima ke naam — Janmadin Mubarak ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--rose:#c95770;--deep:#71384b;--ink:#422d35;--muted:#866b73;--cream:#fffaf7;--pink:#fde8e9;--line:#f0d8da;--gold:#c69b58}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--cream);color:var(--ink);font-family:"Noto Serif Devanagari",serif;line-height:1.85}
+    button{font:inherit;cursor:pointer}
+    .ambient{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden;background:radial-gradient(ellipse at 5% 10%,#ffe8e8 0,transparent 32%),radial-gradient(ellipse at 95% 70%,#f9e9dc 0,transparent 35%),var(--cream)}
+    .ambient:before,.ambient:after{content:"♡";position:absolute;color:#e9b8c1;opacity:.22;font-size:190px}
+    .ambient:before{top:10%;left:-55px;transform:rotate(-18deg)}.ambient:after{right:-35px;bottom:8%;transform:rotate(18deg)}
+    .topline{height:5px;background:linear-gradient(90deg,#d98c9c,#f3d5b0,#c95770)}
+    .wrap{width:min(1050px,92%);margin:auto}
+    header{text-align:center;padding:52px 0 30px}
+    .eyebrow{font:600 11px "DM Sans",sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--rose)}
+    .tiny-heart{color:var(--rose);font-size:22px;margin:10px 0}
+    h1,h2,h3{font-weight:600;line-height:1.35}
+    h1{font-size:clamp(42px,8vw,82px);margin:8px 0;color:var(--deep);letter-spacing:-1.5px}
+    h1 span{font-style:italic;color:var(--rose)}
+    .subtitle{font-size:clamp(15px,2.5vw,19px);color:var(--muted);max-width:600px;margin:14px auto 25px}
+    .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #e9c7cd;border-radius:99px;padding:8px 17px;color:var(--deep);font-size:13px;background:#fff9f8}
+    .hero{display:grid;grid-template-columns:1.02fr .98fr;gap:42px;align-items:center;padding:22px 0 66px}
+    .hero-copy h2{font-size:clamp(28px,4vw,43px);margin:0 0 16px;color:var(--deep)}
+    .hero-copy p{color:#765e66;margin:0 0 14px}
+    .signature{color:var(--rose);font-style:italic;font-size:20px;margin-top:18px}
+    .hero-photo{position:relative;padding:13px;background:#fff;border-radius:48% 48% 16px 16px;box-shadow:0 18px 55px #71384b1a;transform:rotate(1.3deg)}
+    .hero-photo img{width:100%;height:430px;object-fit:cover;display:block;border-radius:48% 48% 10px 10px;background:#f9e4e6}
+    .photo-note{font-size:12px;color:var(--muted);text-align:center;padding:10px 4px 0}
+    .section{padding:52px 0}
+    .section-head{text-align:center;margin-bottom:28px}
+    .section-head .eyebrow{margin-bottom:8px}
+    .section-head h2{font-size:clamp(28px,4vw,39px);color:var(--deep);margin:0}
+    .section-head p{color:var(--muted);font-size:14px;margin:8px 0 0}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+    .memory{background:white;padding:10px 10px 16px;box-shadow:0 10px 28px #71384b0d;border:1px solid #f7e8e8;transition:transform .25s}
+    .memory:nth-child(odd){transform:rotate(-1deg)}.memory:nth-child(even){transform:rotate(1deg)}
+    .memory:hover{transform:translateY(-5px) rotate(0);box-shadow:0 15px 35px #71384b18}
+    .memory img{width:100%;height:245px;display:block;object-fit:cover;background:#f8e6e7}
+    .memory h3{font-size:17px;text-align:center;color:var(--deep);margin:12px 3px 2px}
+    .memory p{font-size:12px;text-align:center;color:var(--muted);margin:0 4px}
+    .letter-section{padding:65px 0}
+    .letter{max-width:760px;margin:auto;background:#fffdfb;border:1px solid var(--line);padding:clamp(25px,6vw,55px);box-shadow:0 18px 50px #71384b0b;position:relative}
+    .letter:before{content:"❦";position:absolute;right:22px;top:8px;font-size:38px;color:#e7b8c0;opacity:.7}
+    .letter h2{font-size:30px;color:var(--deep);margin:0 0 22px}
+    .letter p{color:#70565f;margin:0 0 17px}
+    .letter .salute{font-size:19px;color:var(--rose);font-weight:600}
+    .letter .signoff{margin-top:25px;color:var(--deep);font-size:19px}
+    .center{text-align:center}
+    .surprise-card{max-width:700px;margin:auto;text-align:center;padding:35px 25px 45px;border-radius:24px;background:linear-gradient(140deg,#fff0ef,#fffaf5);border:1px solid #f1dadd}
+    .surprise-card .big-heart{font-size:38px;color:var(--rose)}
+    .surprise-card h2{color:var(--deep);font-size:30px;margin:4px 0 10px}
+    .surprise-card p{color:var(--muted);margin:0 auto 22px;max-width:500px}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;border:0;border-radius:99px;padding:12px 23px;background:var(--rose);color:#fff;box-shadow:0 7px 18px #c9577033;transition:transform .2s,background .2s}
+    .btn:hover{background:#ad405a;transform:translateY(-2px)}
+    .btn.secondary{background:#fff;color:var(--deep);border:1px solid #e9c7cd;box-shadow:none}
+    .surprise-message{display:none;margin:25px auto 0;max-width:530px;padding:23px;background:#fff;border-radius:15px;border:1px dashed #e4a9b5;color:var(--deep);animation:appear .5s ease}
+    .surprise-message.show{display:block}
+    .surprise-message .big{font-size:26px;color:var(--rose)}
+    footer{text-align:center;padding:40px 0 35px;color:#987d85;font-size:12px}
+    footer .heart{color:var(--rose);font-size:18px}
+    .floating{position:fixed;bottom:-25px;z-index:4;pointer-events:none;animation:floatUp linear forwards;color:#cf7085}
+    @keyframes floatUp{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}
+    @keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:720px){header{padding-top:35px}.hero{grid-template-columns:1fr;gap:28px;padding-bottom:40px}.hero-copy{order:2;text-align:center}.hero-photo{order:1;max-width:440px;width:90%;margin:auto}.hero-photo img{height:360px}.gallery{grid-template-columns:repeat(2,1fr);gap:12px}.memory img{height:210px}.section{padding:38px 0}.letter-section{padding:42px 0}}
+    @media(max-width:430px){.gallery{grid-template-columns:1fr 1fr}.memory img{height:160px}.memory h3{font-size:14px}.memory p{font-size:11px}.hero-photo img{height:310px}.letter h2{font-size:25px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+<div class="ambient"></div><div class="topline"></div>
+<header class="wrap">
+  <div class="eyebrow">A little page, made with all my heart</div>
+  <div class="tiny-heart">♡</div>
+  <h1>जन्मदिन मुबारक, <span>Garima</span></h1>
+  <p class="subtitle">तुम्हारे होने से ज़िंदगी थोड़ी और ख़ूबसूरत लगती है। आज का दिन बस तुम्हारे नाम।</p>
+  <div class="pill">✦ तुम्हारे लिए, दिल से ✦</div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">आज का सबसे प्यारा दिन</div>
+      <h2>तुम मुस्कुराती हो,<br>तो सब अच्छा लगने लगता है।</h2>
+      <p>गरिमा, तुम्हारे लिए कोई बड़ी-बड़ी बातें नहीं कहनीं। बस इतना कि तुम्हारी हँसी, तुम्हारी बातें और तुम्हारा साथ मेरे दिनों में एक सुकून-सा भर देते हैं।</p>
+      <p>तुम्हारा नया साल ढेर सारी ख़ुशियाँ, सुकून, नए सपने और उन्हें पूरा करने की हिम्मत लेकर आए। और जब कभी दिन थोड़ा मुश्किल हो, तो याद रखना—तुम्हारी ख़ुशी चाहने वाला कोई है।</p>
+      <div class="signature">हमेशा तुम्हारी ख़ुशी की दुआ में ♡</div>
+    </div>
+    <div class="hero-photo">
+      <!-- PHOTO 1: Replace images/garima-1.jpg with your own photo path -->
+      <img src="images/garima-1.jpg" alt="गरिमा की प्यारी-सी तस्वीर" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=85'">
+      <div class="photo-note">कुछ लोग तस्वीरों में नहीं, दिल में बसते हैं।</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow">हमारी छोटी-छोटी यादें</div>
+      <h2>कुछ पल, जो दिल के क़रीब हैं</h2>
+      <p>हर तस्वीर के पीछे एक एहसास, और हर एहसास में तुम।</p>
+    </div>
+    <div class="gallery">
+      <article class="memory">
+        <!-- PHOTO 2: Replace images/garima-2.jpg -->
+        <img src="images/garima-2.jpg" alt="गरिमा की यादगार तस्वीर" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=85'">
+        <h3>तुम्हारी मुस्कान</h3><p>जिससे उदास दिन भी सँवर जाए।</p>
+      </article>
+      <article class="memory">
+        <!-- PHOTO 3: Replace images/garima-3.jpg -->
+        <img src="images/garima-3.jpg" alt="एक प्यारी याद" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=85'">
+        <h3>एक प्यारा-सा पल</h3><p>जिसे याद करके फिर मुस्कुरा दूँ।</p>
+      </article>
+      <article class="memory">
+        <!-- PHOTO 4: Replace images/garima-4.jpg -->
+        <img src="images/garima-4.jpg" alt="गरिमा की खूबसूरत तस्वीर" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=85'">
+        <h3>तुम, बस तुम</h3><p>बिना किसी वजह के भी ख़ास।</p>
+      </article>
+      <article class="memory">
+        <!-- PHOTO 5: Replace images/garima-5.jpg -->
+        <img src="images/garima-5.jpg" alt="साथ बिताए पल की तस्वीर" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=85'">
+        <h3>साथ का सुकून</h3><p>जहाँ बातें कम, एहसास ज़्यादा हों।</p>
+      </article>
+      <article class="memory">
+        <!-- PHOTO 6: Replace images/garima-6.jpg -->
+        <img src="images/garima-6.jpg" alt="एक और खूबसूरत याद" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=85'">
+        <h3>दिल के क़रीब</h3><p>कुछ रिश्ते ख़ामोशी में भी बोलते हैं।</p>
+      </article>
+      <article class="memory">
+        <!-- PHOTO 7: Replace images/garima-7.jpg -->
+        <img src="images/garima-7.jpg" alt="जन्मदिन की खास तस्वीर" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=85'">
+        <h3>आज और हमेशा</h3><p>तुम्हारे हिस्से में बस ख़ुशियाँ आएँ।</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="letter-section">
+    <div class="letter">
+      <div class="eyebrow">एक छोटी-सी चिट्ठी</div>
+      <h2>मेरी प्यारी गरिमा,</h2>
+      <p>पता नहीं तुम्हें कैसे बताऊँ कि तुम मेरे लिए कितनी मायने रखती हो। तुम्हारे साथ की छोटी-छोटी बातें भी याद बन जाती हैं—कभी तुम्हारी हँसी, कभी तुम्हारा यूँ ही कुछ कह देना, और कभी बिना कुछ कहे भी सब समझा देना।</p>
+      <p>मैं नहीं चाहता कि आज का दिन सिर्फ़ केक, तोहफ़ों और तस्वीरों तक रह जाए। मेरी दुआ है कि तुम्हारी ज़िंदगी में ऐसे लोग रहें जो तुम्हें समझें, तुम्हारे सपनों को जगह दें और तुम्हें कभी अपनी अहमियत पर शक न होने दें। तुम जैसी हो, वैसी ही बहुत ख़ास हो।</p>
+      <p>अगर आने वाले दिनों में कभी थक जाओ, तो थोड़ा आराम कर लेना। अगर कुछ नया चाहो, तो पूरे दिल से उसके पीछे जाना। और अगर कभी ख़ुद पर भरोसा कम पड़ने लगे, तो अपनी अब तक की सारी हिम्मत याद कर लेना। मैं चाहता हूँ कि तुम ख़ुद से भी उतना ही प्यार करो, जितना प्यार तुम दूसरों को देती हो।</p>
+      <p>जन्मदिन पर बस यही कहना है—तुम्हारी आँखों में सपने बने रहें, दिल में सुकून रहे और चेहरे पर यह प्यारी-सी मुस्कान हमेशा लौटती रहे। तुम्हें आज भी, आने वाले हर दिन भी, ढेर सारा प्यार और ख़ुशियाँ मिलें।</p>
+      <p class="signoff">जन्मदिन बहुत-बहुत मुबारक हो। ♡<br>तुम्हारे लिए ढेर सारा प्यार।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="surprise-card">
+      <div class="big-heart">♡</div>
+      <div class="eyebrow">एक आख़िरी छोटी-सी बात</div>
+      <h2>तुम्हारे लिए एक सरप्राइज़ है</h2>
+      <p>इस बटन को दबाओ, गरिमा। दिल में छुपी एक बात तुम्हारा इंतज़ार कर रही है।</p>
+      <button class="btn" id="surpriseBtn" type="button">मेरे लिए खोलो ♡</button>
+      <div class="surprise-message" id="surpriseMessage" aria-live="polite">
+        <div class="big">तुम बहुत प्यारी हो, गरिमा। ❤️</div>
+        <p>दुनिया चाहे कितनी भी बड़ी हो, कुछ लोग अपनी मौजूदगी से उसे अपना-सा बना देते हैं। तुम उन्हीं में से हो। तुम्हें हँसते देखना, तुम्हारे सपनों को पूरा होते देखना और तुम्हें हर दिन थोड़ा और ख़ुश देखना—बस यही दिल से चाहता हूँ।</p>
+        <p><strong>तुम्हारा आज ख़ूबसूरत हो, और आने वाला हर कल उससे भी ज़्यादा। जन्मदिन मुबारक, मेरी ख़ास इंसान।</strong></p>
+        <div>बहुत सारा प्यार, हमेशा। ♡</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="heart">♥</div>
+  <div>गरिमा के नाम, पूरे दिल से बनाया गया।</div>
+  <div>तुम्हारा होना ही एक ख़ूबसूरत वजह है।</div>
+</footer>
+
+<script>
+  const surpriseBtn = document.getElementById('surpriseBtn');
+  const surpriseMessage = document.getElementById('surpriseMessage');
+  surpriseBtn.addEventListener('click', () => {
+    const isOpen = surpriseMessage.classList.toggle('show');
+    surpriseBtn.textContent = isOpen ? 'दिल की बात खुल गई ♡' : 'मेरे लिए खोलो ♡';
+    if (isOpen) {
+      for (let i = 0; i < 18; i++) {
+        const heart = document.createElement('span');
+        heart.className = 'floating';
+        heart.textContent = ['♡', '♥', '✦'][Math.floor(Math.random() * 3)];
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.fontSize = (14 + Math.random() * 18) + 'px';
+        heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 6500);
+      }
+    }
+  });
+</script>
+</body>
+</html>
